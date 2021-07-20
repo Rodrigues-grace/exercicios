@@ -1,0 +1,123 @@
+body {
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#principal {
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.top {
+    height: 50px;
+    background: #162028;
+    position: relative;
+}
+
+.logo {
+    margin: 8px 0 0 135px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    padding: 20px;
+}
+
+a li{
+    color: #425564;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 12px;
+}
+
+a li:hover {
+    color: white;
+    transition: 1s;
+}
+
+.portfolio {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.portfolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+
+.portfolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.gallery {
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-card {
+    width: 32%;
+    text-align: center;
+    float: left;
+}
+
+.gallery-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.about {
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(/aula_37/imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.about p {
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact  address{
+    margin: 50px 0;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer {
+    background: #0b171f;
+    padding: 25px;
+    font-size: 14px;
+    color: #6f8597;
+    text-align: center;
+    letter-spacing: 5px;
+}
