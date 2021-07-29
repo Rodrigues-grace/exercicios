@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.header-site {
+    background-image: url(image/space.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+.header-site a {
+    padding: 25px 10px;
+    background: rgba(190, 29, 29, 0.582);
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+a:hover {
+    background: rgba(255, 0, 0, 0.582);
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.content-site {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    overflow: auto;
+}
+
+.imgt {
+    height: 300px;
+}
+
+.col-2 {
+    width: 46%;
+    float: left;
+    margin: 2%;
+}
+
+.col-2 img {
+    width: 100%;
+}
+
+.tumb {
+    display: inline-block
+}
+
+
+.img-site {
+    background-image: url(image/village.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-weight: 700;
+}
+
+.footer-site {
+    background-color: rgb(197, 151, 151);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
